@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tetris Game</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+      <section id="playground"></section>
+      <section class="info">
+        <div class="info__row">
+          <div>Score: </div>
+          <div class="score">0</div>
+        </div>
+        <div class="info__row">
+          <div>Lines: </div>
+          <div class="lines">0</div>
+        </div>
+      </section>
+      <section id="game_over" class="overlay">
+        <div class="game_over__block">
+          <div class="game_over__title">GAME OVER</div>
+          <div class="info game_over__info">
+            <div class="info__row">
+              <div>Score: </div>
+              <div class="score">0</div>
+            </div>
+            <div class="info__row">
+              <div>Lines: </div>
+              <div class="lines">0</div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </body>
+    <script src="/js/constants.js"></script>
+    <script src="/js/EventListeners.js"></script>
+    <script src="/js/Markdown.js"></script>
+    <script src="/js/Playground.js"></script>
+    <script src="/js/FallingFigure.js"></script>
+    <script src="/js/Tetris.js"></script>
+</html>

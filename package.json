@@ -1,0 +1,22 @@
+{
+  "name": "web_hw2_tetris",
+  "version": "1.0.0",
+  "description": "The classic arcade game Tetris",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/serve/bin/serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maletsden/web_hw2_tetris.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maletsden/web_hw2_tetris/issues"
+  },
+  "homepage": "https://github.com/maletsden/web_hw2_tetris#readme",
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}
